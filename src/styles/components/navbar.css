@@ -1,0 +1,31 @@
+nav {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 30px;
+  width: 100%;
+}
+
+.nav-menu {
+  align-items: center;
+  display: flex;
+  list-style: none;
+}
+.nav-menu li.nav-link-circle a {
+  align-items: center;
+  background-color: var(--surface-color);
+  border-radius: 50px;
+  color: var(--primary-color);
+  display: flex;
+  font-size: 18px;
+  height: 54px;
+  justify-content: center;
+  margin-left: 10px;
+  transition: 0.5s;
+  width: 54px;
+}
+.nav-menu li.nav-link-circle a:hover,
+.nav-menu li.nav-link-circle a.active {
+  background-color: var(--primary-color);
+  color: var(--surface-color);
+}
