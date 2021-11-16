@@ -28,7 +28,7 @@ const Register = () => {
                         <label>Konfirmasi Kata Sandi</label>
                         <input placeholder="***********" type="password" />
                     </div>
-                    <button type="submit" className="btn btn-primary btn-block">Register</button>
+                    <button type="submit" className="btn btn-primary btn-block">Daftar</button>
                     <Link to="/login" className="btn btn-block text-white mt-10">Sudah punya akun? <span className="text-primary">Masuk di sini</span></Link>
                 </form>
             </div>

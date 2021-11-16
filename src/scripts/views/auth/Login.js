@@ -16,7 +16,7 @@ const Login = () => {
                         <label id="password">Kata Sandi</label>
                         <input placeholder="***********" type="password" />
                     </div>
-                    <button type="submit" className="btn btn-primary btn-block">Login</button>
+                    <button type="submit" className="btn btn-primary btn-block">Masuk</button>
                     <Link to="/forgot-password" className="btn btn-block text-primary mt-10">Lupa Kata Sandi ?</Link>
                     <Link to="/register" className="btn btn-block text-white mt-60">Belum punya akun? <span className="text-primary">Daftar Sekarang!</span></Link>
                 </form>
