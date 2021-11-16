@@ -9,11 +9,11 @@ const Login = () => {
                 <Hero />
                 <form>
                     <div className="form-group">
-                        <label for="email">Email</label>
+                        <label>Email</label>
                         <input id="email" placeholder="example@email.com" type="email" />
                     </div>
                     <div className="form-group">
-                        <label id="password" for="password">Kata Sandi</label>
+                        <label id="password">Kata Sandi</label>
                         <input placeholder="***********" type="password" />
                     </div>
                     <button type="submit" className="btn btn-primary btn-block">Login</button>
