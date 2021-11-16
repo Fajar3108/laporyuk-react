@@ -1,0 +1,66 @@
+.complaints {
+  display: grid;
+  grid-gap: 20px;
+  grid-template-columns: repeat(4, auto);
+}
+
+.complaint-card {
+  background-color: var(--surface-color);
+  border-radius: 5px;
+  cursor: pointer;
+  padding: 20px;
+  transition: 0.5s;
+  width: 100%;
+}
+.complaint-card:hover {
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+  transform: scale(1.05);
+}
+.complaint-card * {
+  display: flex;
+  transition: 0.5s;
+}
+
+.complaint-header {
+  align-items: center;
+}
+.complaint-header .user-image {
+  align-items: center;
+  border-radius: 50px;
+  height: 35px;
+  overflow: hidden;
+  width: 35px;
+}
+.complaint-header .user-image img {
+  height: 100%;
+  object-fit: cover;
+  width: 100%;
+}
+.complaint-header .header-detail {
+  display: block;
+  margin-left: 10px;
+}
+
+.complaint-content {
+  flex-direction: column;
+  padding: 10px 0;
+}
+.complaint-content h3 {
+  color: var(--pure-color);
+}
+.complaint-content p {
+  display: -webkit-box;
+  color: var(light-color);
+  line-clamp: 3;
+  line-height: 1.5;
+  margin: 5px 0;
+  overflow: hidden;
+  text-overflow: hidden;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+}
+
+.complaint-footer {
+  align-items: center;
+  justify-content: space-between;
+}
