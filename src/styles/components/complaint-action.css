@@ -1,0 +1,21 @@
+.complaint-action {
+  align-items: center;
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+}
+
+.complaint-action .form-group {
+  margin-bottom: 0;
+}
+
+.complaint-action .right {
+  text-align: right;
+}
+
+.complaint-action .right .btn {
+  transition: 0.5s;
+}
+.complaint-action .right .btn:hover {
+  background-color: var(--primary-color);
+  color: var(--background-color) !important;
+}

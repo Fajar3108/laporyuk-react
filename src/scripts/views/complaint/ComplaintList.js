@@ -1,6 +1,6 @@
 import "../../../styles/views/complaint.css";
 import { Link } from "react-router-dom";
-import { ComplaintWrapper, Hero, Navbar } from "../../components";
+import { ComplaintAction, ComplaintWrapper, Footer, Hero, Navbar } from "../../components";
 
 const ComplaintList = () => {
     return (
@@ -8,7 +8,9 @@ const ComplaintList = () => {
             <Navbar />
             <Hero className="mt-60" />
             <Link to="/complaint/create" className="btn btn-primary mt-20">Kirim Laporan</Link>
+            <ComplaintAction />
             <ComplaintWrapper />
+            <Footer />
         </div>
     )
 };

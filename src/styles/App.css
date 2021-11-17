@@ -26,6 +26,21 @@ a {
 .h1 {
   font-size: 54px;
 }
+.h2 {
+  font-size: 44px;
+}
+.h3 {
+  font-size: 32px;
+}
+.h4 {
+  font-size: 24px;
+}
+.h5 {
+  font-size: 16px;
+}
+.h6 {
+  font-size: 12px;
+}
 
 .main {
   background-color: var(--background-color);
@@ -44,8 +59,18 @@ a {
 .mt-20 {
   margin-top: 20px;
 }
+.mt-30 {
+  margin-top: 30px;
+}
 .mt-60 {
   margin-top: 60px;
+}
+
+.p-10 {
+  padding: 10px;
+}
+.p-20 {
+  padding: 20px !important;
 }
 
 .text-danger {
@@ -59,4 +84,62 @@ a {
 }
 .text-white {
   color: var(--pure-color) !important;
+}
+
+.text-thin {
+  font-weight: 100;
+}
+.text-normal {
+  font-weight: 400;
+}
+
+.text-left {
+  text-align: left !important;
+}
+
+.cursor-default {
+  cursor: default !important;
+}
+
+.d-flex {
+  display: flex !important;
+}
+.d-block {
+  display: block;
+}
+
+.justify-space-between {
+  justify-content: space-between;
+}
+.align-items-center {
+  align-items: center;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+.form-group label {
+  color: var(--pure-color);
+  display: block;
+  margin-bottom: 10px;
+}
+.form-group input {
+  background-color: var(--surface-color);
+  border: none;
+  border-radius: 5px;
+  color: var(--pure-color);
+  outline: none;
+  padding: 12px 20px;
+  width: 100%;
+}
+
+.limit-text {
+  display: -webkit-box;
+  color: var(light-color);
+  line-clamp: 2;
+  line-height: 1.5;
+  overflow: hidden;
+  text-overflow: hidden;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
 }

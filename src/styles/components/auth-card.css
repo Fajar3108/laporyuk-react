@@ -14,21 +14,3 @@
 .auth-card form {
   margin-top: 20px;
 }
-
-.form-group {
-  margin-bottom: 20px;
-}
-.form-group label {
-  color: var(--pure-color);
-  display: block;
-  margin-bottom: 10px;
-}
-.form-group input {
-  background-color: var(--surface-color);
-  border: none;
-  border-radius: 5px;
-  color: var(--pure-color);
-  outline: none;
-  padding: 12px 20px;
-  width: 100%;
-}

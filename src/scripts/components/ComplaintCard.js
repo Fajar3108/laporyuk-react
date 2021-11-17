@@ -21,7 +21,7 @@ const ComplaintCard = (props) => {
                 </div>
             </div>
             <div className="complaint-content">
-                <h3>Judul Laporan</h3>
+                <h3 className="text-normal">Judul Laporan</h3>
                 <p className="text-light">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi dolor perferendis tempora voluptates repellendus similique, aliquam sapiente porro. Vitae blanditiis dolore ducimus, sequi aspernatur nobis facilis harum est odit voluptates.</p>
             </div>
             <div className="complaint-footer">

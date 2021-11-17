@@ -13,6 +13,16 @@
   background-color: var(--primary-color);
   color: var(--background-color);
 }
+.btn-outline-primary {
+  background-color: transparent;
+  border: 1px solid var(--primary-color);
+  color: var(--primary-color);
+}
+.btn-outline-light {
+  background-color: transparent;
+  border: 1px solid var(--light-color);
+  color: var(--light-color);
+}
 
 .btn-surface {
   background-color: var(--surface-color);

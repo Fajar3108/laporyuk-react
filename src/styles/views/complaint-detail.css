@@ -1,0 +1,40 @@
+.complaint {
+  display: grid;
+  grid-gap: 20px;
+  grid-template-columns: 60% auto;
+}
+
+.complaint-images {
+  display: grid;
+  grid-gap: 10px;
+  grid-template-columns: repeat(4, auto);
+}
+
+.complaint-images .image {
+  background-color: var(--surface-color);
+  border-radius: 5px;
+  padding-top: 100%;
+  position: relative;
+  overflow: hidden;
+}
+
+.complaint-images .image img {
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+
+.user-info .profile-image {
+  align-items: center;
+  border-radius: 50px;
+  height: 35px;
+  overflow: hidden;
+  width: 35px;
+}
+.user-info .profile-image img {
+  height: 100%;
+  object-fit: cover;
+  width: 100%;
+}
